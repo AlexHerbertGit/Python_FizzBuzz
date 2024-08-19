@@ -2,3 +2,6 @@ movies = [("Patton Oswalt: Annihilation", 2017), ("New York Doll", 2005), ("And 
 
 moviedate = [date for (movie, date) in movies if date > 2007] 
 print(moviedate)
+
+movie_dict = { movie:date for (movie, date) in movies}
+print(movie_dict)
